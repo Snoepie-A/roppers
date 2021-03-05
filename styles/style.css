@@ -1,0 +1,86 @@
+/*
+    colors:
+    #1D3551 -dark blue
+    #C65F25 - orange
+    #D3B998 - cream-ish
+    #7D877E - grey
+*/
+
+body {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/constitution.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0;
+}
+
+nav {
+    background-color: #444;
+    color: #ddd;
+    font-size: x-large;
+  }
+
+  nav a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav a:hover{
+    text-decoration: underline;
+  }
+
+  .navbar-brand {
+    padding-top: 5px;
+    float: left;  
+  }
+
+  .navbar-name{
+    padding: 11px;
+    float: left;
+  }
+
+  .nav-right{
+    padding: 11px;
+    float: right;
+  }
+
+  .clearBoth { 
+    clear:both; 
+  }
+
+.div-orange {
+    background-color: #C65F25;
+    color: #D3B998;
+    padding: 5px;
+    position: relative;
+    margin-right: 50%;
+    margin-top: 50px;
+    overflow: hidden;
+  }
+
+  .div-blue {
+    background-color: #1D3551;
+    color: #D3B998;
+    padding: 5px;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 50px;
+    overflow: hidden;
+  }
+
+  footer {
+    background-color: #444;
+    color: #ddd;
+    box-shadow: 0 50vh 0 50vh #444;
+    padding: 15px;
+  }
+
+  footer a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    
+  }
+
+  .footer-right{
+    float: right;
+  }
