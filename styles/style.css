@@ -7,9 +7,10 @@
 */
 
 body {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('constitution.jpg');
-  background-attachment: fixed;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/constitution.jpg");
+  background-attachment:fixed;
   background-size: 100% 100%;
+  min-height: 100%;
   margin: 0;
 }
 
@@ -48,23 +49,25 @@ nav {
   }
 
 .div-orange {
-    background-color: #C65F25;
+    background-color: rgba(198, 95, 37, 0.7);
     color: #D3B998;
     padding: 5px;
     position: relative;
     margin-right: 50%;
     margin-top: 50px;
     overflow: hidden;
+    border-radius: 10px;
   }
 
   .div-blue {
-    background-color: #1D3551;
+    background-color: rgba(29, 53, 87, 0.7);
     color: #D3B998;
     padding: 5px;
     position: relative;
     margin-left: 50%;
     margin-top: 50px;
     overflow: hidden;
+    border-radius: 10px;
   }
 
   footer {
